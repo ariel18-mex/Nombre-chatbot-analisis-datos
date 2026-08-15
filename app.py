@@ -167,7 +167,7 @@ def detectar_intencion(texto_usuario):
                 mejor_puntuacion = puntuacion
                 mejor_intencion = intencion
 
-    if mejor_puntuacion >= 2:
+    if mejor_puntuacion >= 1:
         return mejor_intencion
 
     return None
